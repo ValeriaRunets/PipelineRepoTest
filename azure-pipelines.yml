@@ -2,6 +2,6 @@ jobs:
 - job: myJob
   timeoutInMinutes: 1
   pool:
-    vmImage: 'ubuntu-latest'
+    vmImage: 'windows-latest'
   steps:
   - bash: echo "Hello world"
